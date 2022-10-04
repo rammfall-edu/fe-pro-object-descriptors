@@ -18,6 +18,7 @@ export const getKeysByDescriptor = (object, descriptor) => {
     return arrayOfStrings;
 };
 
+
 /**
  * Должен вернуть true если объект был заморожен каким-либо методом заморозки freeze, seal, preventExtensions иначе false
  * @param {Object} object
